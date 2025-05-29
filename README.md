@@ -54,3 +54,18 @@ A ferramenta é útil para gerenciamento pessoal de tarefas.
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 - Programação Orientada a Objetos
 - Armazenamento em JSON
+  
+---
+
+## 🚀 Como executar
+1.Instale o Python 3.10 ou superior.
+2.Clone este repositório ou baixe os arquivos.
+3.Instale a biblioteca necessária: (pip install customtkinter)
+4.Execute o programa principal: (python main.py)
+
+---
+
+## 👤 Autor
+Gabriel DIniz
+Estudante de Engenharia de Software (UnB)
+
