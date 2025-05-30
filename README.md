@@ -75,7 +75,6 @@ A ferramenta é útil para gerenciamento pessoal de tarefas.
 ```bash
 gerenciador-tarefas/
 ├── main.py
-├── tarefas.json
 ├── README.md
 ├── UML gerenciador_tarefas.png
 └── package/
