@@ -50,7 +50,7 @@ A ferramenta é útil para gerenciamento pessoal de tarefas.
 
 ## 🛠 Tecnologias Utilizadas
 
-- Python 3.x
+- Python 3.13.2
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 - Programação Orientada a Objetos
 - Armazenamento em JSON
@@ -60,9 +60,31 @@ A ferramenta é útil para gerenciamento pessoal de tarefas.
 ## 🚀 Como executar
 - 1.Instale o Python 3.10 ou superior.
 - 2.Clone este repositório ou baixe os arquivos.
-- 3.Instale a biblioteca necessária: (pip install customtkinter)
-- 4.Execute o programa principal: (python main.py)
+- 3.Acesse o diretório do projeto.
+- 4.Instale a biblioteca necessária:
+  ``` bash
+  pip install customtkinter
+  ``` 
+- 5.Execute o programa principal:
+  ```bash
+  python main.py
+  ``` 
 
+---
+## 🗂 Estrutura do projeto
+```bash
+gerenciador-tarefas/
+├── main.py
+├── tarefas.json
+├── README.md
+├── UML gerenciador_tarefas.png
+└── package/
+    ├── __init__.py
+    ├── controllers.py         # Gerenciador de Tarefas
+    ├── gui.py                 # Interface gráfica com customtkinter
+    ├── models.py              # Classe Tarefa (e Mixin)
+    └── persistence.py         # Persistência em JSON
+```
 ---
 
 ## 👤 Autor
